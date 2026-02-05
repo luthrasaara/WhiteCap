@@ -1,0 +1,114 @@
+
+#signInOptions {
+	background: red;
+	margin: 10px 10px 20px 10px;
+	padding: 5px;
+	display: flex;
+	border-radius: 10px;
+	gap: 3px;
+	background: rgb(243, 244, 246);
+}
+
+#signInOptions button {
+	padding: 10px;
+	background: rgb(243, 244, 246);
+	width: 100%;
+	border-radius: 10px;
+	border: 0;
+}
+
+.activeButton {
+	background: white !important;
+	color: blue;
+}
+
+#box {
+	background: white;
+	min-width: 400px;
+	width: 25%;
+	margin: auto;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#container {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	background: rgb(238, 243, 255);
+}
+
+h1 {
+	text-align: center;
+	font: 28px Calibri;
+	font-weight: 500;
+	margin: 5px;
+}
+
+h3 {
+	text-align: center;
+	font: 14px Calibri;
+	margin: 0px;
+	padding: 0px;
+}
+
+.inputBox {
+	padding: 8px;
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid rgb(229, 231, 235);
+	background: rgb(249, 250, 251);
+}
+
+.inputBox:focus {
+	outline: 0;
+}
+
+::placeholder {
+	color: rgb(153, 161, 175);
+}
+
+h4 {
+	font: 15px Calibri;
+	margin-bottom: 5px;
+}
+
+#inputField{
+	margin-top: 20px;
+}
+
+#stuff {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+#rmbr {
+	display: flex;
+	align-items: center;
+}
+
+#signInButton {
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px;
+	border: 0;
+	background: rgb(0, 150, 255);
+	color: white;
+}
+
+span {
+	font: 14px Calibri;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+#noAccount {
+	padding-top: 15px;
+	text-align: center;
+}
