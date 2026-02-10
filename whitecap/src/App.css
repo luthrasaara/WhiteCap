@@ -55,6 +55,11 @@
   margin-left: -2px;
 }
 
+.logo {
+    width: 24px; 
+    height: 24px;
+}
+
 
 
 .hero{
@@ -75,7 +80,7 @@
 }
 
 button {
-    margin-top: 1rem;
+    margin-top: 3rem;
     background: linear-gradient(135deg, #4f6bff, #6a5cff);
     padding: 0.5rem 1.5rem;
     font-size: 1.1rem;
@@ -88,7 +93,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; 
+    gap: 5px; 
 	cursor: pointer;
 	font-weight: 600;
 	box-shadow: 0 8px 20px rgba(79, 109, 255, 0.35);
